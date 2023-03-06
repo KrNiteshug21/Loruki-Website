@@ -1,0 +1,25 @@
+html{
+    font-size: larger;
+}
+body{
+    background: rgb(43, 46, 46);
+    color: rgb(174, 184, 192);
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+.hline{
+    width: 20px;
+    color: rgb(43, 46, 46);
+    border-color: rgb(43, 46, 46);
+}
+a{
+    color : aliceblue;
+}
+a:visited{
+    color : lightgray;
+}
+a:active a:hover{
+    color : #eee;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: center;
+}
+ol{
+    list-style-type:decimal;
+    /* text-align: center; */
+    list-style-position: inside;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: square;
+    list-style: square url('img/bullet.jpg') inside;
+    line-height: 1.5;
+}
+ul li/*:nth-child(odd)*/{
+    color:brown;
+}
+ol li{
+    color:brown;
+}
+::marker{
+    color: brown;
+    content: 'Best-> ';
+}

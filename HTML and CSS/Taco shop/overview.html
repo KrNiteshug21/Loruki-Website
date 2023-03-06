@@ -1,0 +1,109 @@
+<!--We can divide the page into header main and footer-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Nitesh">
+    <title>Little Taco Shop</title>
+    <link class="link" rel="icon"
+        href="https://image.similarpng.com/very-thumbnail/2020/08/Taco-mexican-sandwitch-vector-PNG.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="overview.css">
+</head>
+
+<body>
+    <fieldset>
+        <h1>Welcome to The Little Taco Shop</h1>
+        <!--aria-labelledby is used to label different nav elements.
+        arial-labelledby and id are used to connect each other with common value in them
+        <nav aria-labelledby="primary-nav">
+        <h2 id="primary-nav">Primary Navigation</h2>-->
+        <nav aria-label="primary-nav">
+            <ul>
+                <li><a href="#about">About LTS</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="Hours.html">Our Hours</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <img src="https://images.unsplash.com/photo-1617918176827-60d42848633c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHRhY28lMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+            alt="Tacos" width="300">
+
+        <section id="about">
+            <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+            <p><abbr title="The Little Taco Shop">LTS</abbr> was founded in 2022.Our shop was built of <strong>love of
+                    tacos</strong>.We hope our shop adds a unique ans interesting place to our own little town</p>
+            <aside>
+                <h3>Taco Trivia</h3>
+                <details>
+                    <summary><strong>When did Tacos first appear in the United States?</strong></summary>
+                    <p>Jeffery M. Pilcaher, taco historian and professor of history at the University of Minnesota, says
+                        the earliest mention of tacos in the Unites States are in a newspaper from 1905. (Source:
+                        <cite><a href="https://www.smithsonianmag.com/">Smithsonian Magazine</a></cite>)</p>
+                </details>
+            </aside>
+        </section>
+
+        <hr>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="3">Our Tacos</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Tacos</th>
+                        <th><abbr title="Qunatity of availabe Tacos">Qty</abbr></th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Crunchy</th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>$4.50</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Chips &amp; Salsa $2</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <a href="#">Back to Top</a>
+        </section>
+
+        <hr>
+
+        <section>
+            <p>Copyright &copy The Little Taco Shop</p>
+        </section>
+    </fieldset>
+</body>
+
+</html>

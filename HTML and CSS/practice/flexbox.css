@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.5rem;
+}
+.heading{
+    margin: 0.5rem;
+    display: flex;
+    border: 2px dashed skyblue;
+}
+h1{
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+h2{
+    padding: 0.75rem;
+    background-color: #333;
+    color: whitesmoke;
+    /* flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 1; */
+    flex: 2 1 100px;
+}  
+.box{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed skyblue;
+}
+.box div{
+    border: 2px dashed skyblue;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}

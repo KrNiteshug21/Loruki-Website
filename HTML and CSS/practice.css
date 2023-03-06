@@ -1,0 +1,57 @@
+body{
+    font-size: 1.5rem;
+    text-align: center;
+}
+div.container{
+    position: relative;
+    min-height: 200vh;
+    border: 3px solid black;
+    position: relative;
+}
+div.inner{
+    /* position: relative; */
+    min-height: 75vh;
+    /* margin: 0.5rem; */
+    border: 3px solid black;
+    top: 45px;
+    /* padding: 50px; */
+}
+div.fixed{
+    position: fixed;
+    border: 3px solid black;
+    padding: 50px;
+    margin:20px;
+    top: 45px;
+    left: 8px;
+    background-color: #333;
+    color: whitesmoke;
+    z-index: 1;
+}
+div.absolute{
+    position: absolute;
+    border: 3px solid black;
+    padding: 50px;
+    margin:20px;
+    background-color: aqua;
+    color:#333;
+    top: 0px;
+    left: 0px;
+}
+div.sticky{
+    position: sticky;
+    border: 3px solid black;
+    padding: 50px;
+    margin:20px;
+    background-color: bisque;
+    color: #333;
+    top: 0;
+    left: 0;
+}
+div.relative{
+    position: relative;
+    border: 3px solid black;
+    /* top: 50px; */
+    padding: 50px;
+    margin:20px;
+    background-color: green;
+}

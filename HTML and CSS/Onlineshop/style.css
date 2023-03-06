@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    font-size: 3rem;
+    color: brown;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    min-height: 150vh;
+}
+fieldset{
+    border-radius: 15px;
+    margin: 5px;
+}
+nav{
+    background-color: gray;
+    border-radius: 15px 15px 0 0;
+}
+ul{
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: 0 0.5rem 0 0.5rem;
+}
+abbr{
+    background-color: rgb(255, 200, 0);
+}
+abbr:hover{
+    background-color: brown;
+}
+header{
+    background-image: url('img/background2.webp');
+    border-radius: 0 0 15px 15px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+}
+.inner figure{
+    margin: 0.5rem;
+    filter: drop-shadow(10px 10px 10px black);
+    position: relative;
+}
+.inner figure figcaption{
+    position: relative;
+    top: 90%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main figure{
+    position: relative;
+    padding: 0.125rem;
+}
+main figure figcaption{
+    position: relative;
+    top: 90%;
+}

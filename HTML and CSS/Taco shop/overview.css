@@ -1,0 +1,16 @@
+body{
+    width: 700px;
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    background: rgb(43, 46, 46);
+}
+table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
